@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00bcd4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btAjax"
+        android:background="#00e676"
+        android:textColor="#eceff1"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajax Amsterdam"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btFiorentina"
+        android:background="#00e676"
+        android:textColor="#eceff1"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fiorentina"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btRealMadrid"
+        android:background="#00e676"
+        android:textColor="#eceff1"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Real Madrid"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
